@@ -1,0 +1,292 @@
+/* global styles */
+:root {
+  --cj-primary: #292826;
+  --cj-primary2: #2e2d2a;
+  --cj-secondary: #00bfff;
+  --cj-success: #28a745;
+  --cj-danger: #dc3545;
+  --cj-warning: #ffc107;
+  --cj-light: #f8f9fa;
+  --cj-dark: #343a40;
+  --cj-white: #ffffff;
+}
+@font-face {
+  font-family: "TsLight";
+  src: url("../fonts/TisaSansLight.ttf");
+}
+@font-face {
+  font-family: "TsRegular";
+  src: url("../fonts/TisaSansRegular.ttf");
+}
+@font-face {
+  font-family: "TsMedium";
+  src: url("../fonts/TisaSansMedium.ttf");
+}
+@font-face {
+  font-family: "TsBold";
+  src: url("../fonts/TisaSansBold.ttf");
+}
+@font-face {
+  font-family: "TsBoldPro";
+  src: url("../fonts/TisaSansBoldPro.ttf");
+}
+body {
+  background-color: var(--cj-primary);
+  color: var(--cj-white);
+}
+.section-titles {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "TsBold";
+}
+section {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* navbar */
+.nav-custom {
+  background-color: var(--cj-primary) !important;
+  padding: 20px 0px;
+}
+.navbar-brand {
+  font-family: "TsMedium";
+  color: var(--cj-white) !important;
+}
+.navbar-toggler-icon {
+  background-image: url(../icons/menu.png) !important;
+  width: 30px;
+}
+.nav-alink {
+  font-family: "TsMedium";
+  color: var(--cj-white) !important;
+}
+.nav-alink:hover {
+  color: var(--cj-secondary) !important;
+}
+
+/* introduction */
+.social-icons {
+  list-style: none;
+  display: flex;
+}
+.social-icons li {
+  margin-right: 15px;
+}
+.social-icons a {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--cj-secondary);
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.social-icons a:hover {
+  background-color: var(--cj-secondary);
+  color: var(--cj-primary);
+}
+
+.introduction h2 {
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+.introduction p {
+  font-size: 19px;
+}
+
+.introduction-btn a {
+  border: 2px solid var(--cj-secondary);
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 40px;
+}
+.hire-me {
+  background-color: var(--cj-secondary);
+  color: var(--cj-primary) !important;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.cv-download:hover {
+  background-color: var(--cj-secondary);
+  color: var(--cj-primary);
+}
+
+/* aboutme */
+.aboutme-intro p {
+  font-size: 19px;
+}
+.aboutme-detail h5 {
+  color: var(--cj-secondary);
+}
+.aboutme-detail p {
+  font-size: 18px;
+}
+.aboutme-img-col {
+  align-self: center;
+  text-align: center;
+}
+.aboutme-img {
+  width: 60%;
+  border-radius: 50%;
+  border: 4px solid var(--cj-secondary);
+}
+/* skills */
+.skill {
+  margin-top: 40px;
+  background-color: var(--cj-primary2);
+  border-radius: 20px;
+  padding: 20px;
+}
+.skill p {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.skill i {
+  font-size: 45px;
+  text-align: center;
+}
+.skill .angular {
+  width: 90%;
+  background-color: var(--cj-secondary) !important;
+}
+.skill .ionic {
+  width: 95%;
+  background-color: var(--cj-secondary) !important;
+}
+.skill .javascript {
+  width: 75%;
+  background-color: var(--cj-secondary) !important;
+}
+.skill .typescript {
+  width: 80%;
+  background-color: var(--cj-secondary) !important;
+}
+.skill .angular-material {
+  width: 78%;
+  background-color: var(--cj-secondary) !important;
+}
+.skill .illustrator {
+  width: 95%;
+  background-color: var(--cj-secondary) !important;
+}
+
+/* services */
+.services-cards {
+  margin-top: 100px;
+  cursor: default;
+}
+.services-card {
+  background-color: var(--cj-primary2);
+  border-radius: 20px;
+  padding: 40px;
+}
+.services-card i {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: var(--cj-secondary);
+}
+.services-card h5 {
+  font-size: 22px;
+  font-family: "TsBold";
+  margin-bottom: 20px;
+}
+.services-card p {
+  font-size: 17px;
+  text-align: justify;
+}
+.services-card:hover {
+  background-color: var(--cj-secondary) !important;
+  color: var(--cj-primary) !important;
+}
+.services-card:hover i {
+  color: var(--cj-primary) !important;
+}
+
+/* contact-form */
+#contact-form {
+  margin-bottom: 70px !important;
+}
+.contact-detail {
+  background-color: var(--cj-primary2);
+  border-radius: 20px;
+  padding: 20px;
+}
+.contact-detail .icon-bx {
+  text-align: center;
+  align-self: center !important;
+}
+.contact-detail i {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: var(--cj-secondary);
+}
+.contact-detail h5 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.contact-detail p {
+  font-size: 19px;
+  font-family: "TsRegular";
+  color: var(--cj-secondary);
+  margin-bottom: 0px;
+}
+.contact-form {
+  margin-top: 20px;
+}
+.contact-form input {
+  width: 100%;
+  background: var(--cj-primary2);
+  color: var(--cj-secondary);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contact-form input:focus {
+  outline: none !important;
+  border-color: var(--cj-secondary);
+  box-shadow: 0 0 2px var(--cj-secondary);
+}
+.contact-form textarea {
+  width: 100%;
+  background: var(--cj-primary2);
+  color: var(--cj-secondary);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contact-form textarea:focus {
+  outline: none !important;
+  border-color: var(--cj-secondary);
+  box-shadow: 0 0 2px var(--cj-secondary);
+}
+.contact-form button {
+  width: 100%;
+  background: var(--cj-primary2);
+  color: var(--cj-secondary);
+  border: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 80px;
+}
+
+/* footer */
+footer {
+  background-color: var(--cj-primary2);
+  padding: 40px;
+}
