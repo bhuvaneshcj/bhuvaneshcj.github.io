@@ -290,3 +290,69 @@ footer {
   background-color: var(--cj-primary2);
   padding: 40px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  section {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  /* introduction */
+  .social-icons {
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .introduction h2 {
+    font-size: 35px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .introduction p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .introduction-btn {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .introduction-btn a {
+    padding: 10px 15px;
+  }
+
+  /* aboutme */
+  .aboutme-img {
+    margin-bottom: 50px;
+  }
+  .aboutme-intro p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .aboutme-detail {
+    text-align: center;
+  }
+  /* footer */
+  #contact-form {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  section {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  /* introduction */
+  .introduction-btn {
+    margin-bottom: 70px;
+  }
+  /* aboutme */
+  .aboutme-img {
+    margin-bottom: 70px;
+  }
+  /* footer */
+  #contact-form {
+    margin-bottom: 40px !important;
+  }
+}
