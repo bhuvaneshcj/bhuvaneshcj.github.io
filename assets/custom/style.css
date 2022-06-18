@@ -88,6 +88,7 @@ section {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-right: 10px;
 }
 .social-icons a:hover {
   background-color: var(--cj-secondary);
@@ -299,9 +300,7 @@ footer {
   }
   /* introduction */
   .social-icons {
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-evenly;
   }
   .introduction h2 {
     font-size: 35px;
