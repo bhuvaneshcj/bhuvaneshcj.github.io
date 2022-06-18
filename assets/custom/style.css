@@ -185,7 +185,7 @@ section {
 /* services */
 .services-cards {
   margin-top: 100px;
-  cursor: default;
+  cursor: pointer;
 }
 .services-card {
   background-color: var(--cj-primary2);
