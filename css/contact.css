@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+    width: 100%;
+    background: #fff;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: var(--app-primary);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #f0f6e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #3c4133;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #717a60;
+}
+
+.contact .info .email,
+.contact .info .phone {
+    margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: var(--app-primary);
+    color: #fff;
+}
+
+.contact .contact-form {
+    width: 100%;
+    background: #fff;
+}
+
+.contact .contact-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .contact-form input {
+    height: 44px;
+}
+
+.contact .contact-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .contact-form button[type=submit] {
+    background: var(--app-primary);
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.contact .contact-form button[type=submit]:hover {
+    background: var(--app-secondary);
+}
+
+/*--------------------------------------------------------------
+# Contact Sent
+--------------------------------------------------------------*/
+.contact-sent {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.contact-sent .bxs-message-dots {
+    font-size: 60px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.contact-sent h5 {
+    font-size: 22px;
+    color: #444444;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-sent p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 30px;
+}

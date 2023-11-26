@@ -1,0 +1,12 @@
+.skills {
+    background-color: #f8f9ff;
+}
+
+.skills .skill-img-div {
+    display: inline-table;
+    text-align: center;
+}
+
+.skills .skill-img-div img {
+    padding: 10px;
+}
