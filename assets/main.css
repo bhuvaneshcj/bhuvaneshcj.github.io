@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+:root {
+    --app-primary: #3996d2;
+}
+
+body {
+    font-family: 'Parkinsans';
+    scroll-behavior: smooth;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/*--------------------------------------------------------------
+# Loader
+--------------------------------------------------------------*/
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+#loader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 0px);
+    left: calc(50% - 30px);
+    border: 4px solid #f3f3f3;
+    border-top-color: var(--app-primary);
+    border-bottom-color: var(--app-primary);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-loader 1s linear infinite;
+}
+
+@keyframes animate-loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
