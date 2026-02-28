@@ -36,8 +36,28 @@
             cursor: pointer;
         }
 
+        ::selection {
+            background-color: #1e3a8a;
+            color: #ffffff;
+        }
+
+        ::-moz-selection {
+            background-color: #1e3a8a;
+            color: #ffffff;
+        }
+
         .dark {
             color-scheme: dark;
+        }
+
+        .dark ::selection {
+            background-color: #60a5fa;
+            color: #000000;
+        }
+
+        .dark ::-moz-selection {
+            background-color: #60a5fa;
+            color: #000000;
         }
 
         * {
