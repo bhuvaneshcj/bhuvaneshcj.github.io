@@ -1,0 +1,384 @@
+{
+    "meta": {
+        "title": "Bhuvanesh - Senior Full Stack Engineer | Backend Architect | Open Source Contributor",
+        "description": "Senior Full Stack Engineer with 4+ years of experience building scalable web and mobile applications using Angular, Node.js, NestJS, Express, Laravel, Flutter, and Ionic. Expert in backend architecture, MySQL, cloud deployment (AWS, DigitalOcean), microservices, and real-time systems.",
+        "keywords": "Senior Full Stack Engineer, Backend Architect, Angular Developer, Node.js Expert, NestJS, Express.js, Laravel, MySQL, AWS, DigitalOcean, Microservices, WebSockets, Redis, Flutter Developer, Ionic Developer, Open Source Contributor, System Design",
+        "author": "Bhuvanesh",
+        "siteUrl": "http://bhuvaneshcj.github.io/",
+        "ogImage": "http://bhuvaneshcj.github.io/assets/images/profile.jpg",
+        "themeColor": "#1e3a8a"
+    },
+    "nav": {
+        "brand": "Bhuvanesh",
+        "links": [
+            {
+                "label": "Home",
+                "href": "#home"
+            },
+            {
+                "label": "About",
+                "href": "#about"
+            },
+            {
+                "label": "Skills",
+                "href": "#skills"
+            },
+            {
+                "label": "Experience",
+                "href": "#experience"
+            },
+            {
+                "label": "Open Source",
+                "href": "#opensource"
+            },
+            {
+                "label": "Certifications",
+                "href": "#certifications"
+            },
+            {
+                "label": "Contact",
+                "href": "#contact"
+            }
+        ]
+    },
+    "hero": {
+        "name": "Bhuvanesh",
+        "role": "Senior Full Stack Engineer & Backend Architect",
+        "tagline": "Building {scalable distributed systems}, {high-performance backends}, and {production-ready web & mobile applications}",
+        "description": "Full Stack Engineer with deep expertise in {backend architecture}, {real-time systems}, {cloud infrastructure}, and {mobile app deployment}. Passionate about open-source, clean code, and designing systems that scale reliably.",
+        "resumeUrl": "http://bhuvaneshcj.github.io/assets/pdf/bhuvanesh.pdf",
+        "profileImage": "http://bhuvaneshcj.github.io/assets/images/dp.png",
+        "profileImageAlt": "Bhuvanesh"
+    },
+    "about": {
+        "heading": "About Me",
+        "paragraphs": [
+            "I am a {Senior Full Stack Engineer} with over {4+ years of experience} designing and delivering scalable, high-performance web and mobile applications. My core strength lies in {backend engineering}, where I architect robust systems using {Node.js}, {NestJS}, {Express.js}, and {Laravel}.",
+            "I specialize in building {real-time applications}, distributed systems, and scalable APIs using {WebSockets}, {Redis}, and {microservices architecture}. My systems are designed with a strong focus on performance, maintainability, and long-term scalability.",
+            "On the frontend, I build enterprise-grade applications using {Angular} and {TypeScript}, ensuring clean component architecture, state management efficiency, and optimal rendering performance.",
+            "I am also a {Mobile Application Developer}, building cross-platform applications using {Ionic + Angular} and {Flutter}. I have successfully deployed multiple production applications to the {Google Play Store} and {Apple App Store}.",
+            "Beyond development, I manage {cloud infrastructure} and production deployments using {AWS} and {DigitalOcean}, configuring servers, databases, SSL, CI/CD pipelines, and monitoring systems.",
+            "As an aspiring {Open Source Contributor}, I actively build developer tools, contribute to the ecosystem, and focus on creating reusable, well-architected solutions that benefit the broader developer community."
+        ]
+    },
+    "skills": {
+        "heading": "Technical Expertise",
+        "groups": [
+            {
+                "category": "Frontend Engineering",
+                "skills": [
+                    {
+                        "name": "Angular",
+                        "level": "Expert",
+                        "width": "95%"
+                    },
+                    {
+                        "name": "React.js",
+                        "level": "Advanced",
+                        "width": "80%"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "level": "Expert",
+                        "width": "95%"
+                    },
+                    {
+                        "name": "JavaScript (ES6+)",
+                        "level": "Expert",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "RxJS",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "HTML5 & CSS3",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "level": "Advanced",
+                        "width": "85%"
+                    }
+                ]
+            },
+            {
+                "category": "Backend & API Engineering",
+                "skills": [
+                    {
+                        "name": "Node.js",
+                        "level": "Expert",
+                        "width": "95%"
+                    },
+                    {
+                        "name": "NestJS",
+                        "level": "Expert",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Express.js",
+                        "level": "Expert",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Laravel (PHP)",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "RESTful API Design",
+                        "level": "Expert",
+                        "width": "95%"
+                    },
+                    {
+                        "name": "Authentication (JWT, OAuth, RBAC)",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "API Security & Rate Limiting",
+                        "level": "Advanced",
+                        "width": "85%"
+                    }
+                ]
+            },
+            {
+                "category": "Database & Caching",
+                "skills": [
+                    {
+                        "name": "MySQL",
+                        "level": "Expert",
+                        "width": "95%"
+                    },
+                    {
+                        "name": "Database Optimization & Indexing",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Query Performance Tuning",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Redis",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "Data Modeling",
+                        "level": "Advanced",
+                        "width": "90%"
+                    }
+                ]
+            },
+            {
+                "category": "Mobile App Development",
+                "skills": [
+                    {
+                        "name": "Ionic + Angular",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "Flutter",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "Play Store Deployment",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "App Store Deployment",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Mobile Performance Optimization",
+                        "level": "Advanced",
+                        "width": "85%"
+                    }
+                ]
+            },
+            {
+                "category": "Cloud, DevOps & Infrastructure",
+                "skills": [
+                    {
+                        "name": "AWS (EC2, S3, RDS)",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "DigitalOcean Droplets",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "Linux Server Management",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "Nginx & Reverse Proxy",
+                        "level": "Advanced",
+                        "width": "85%"
+                    },
+                    {
+                        "name": "SSL & Domain Configuration",
+                        "level": "Advanced",
+                        "width": "85%"
+                    }
+                ]
+            },
+            {
+                "category": "Architecture & Engineering Practices",
+                "skills": [
+                    {
+                        "name": "Microservices Architecture",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "WebSockets & Real-Time Systems",
+                        "level": "Expert",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Clean Architecture",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "System Design",
+                        "level": "Advanced",
+                        "width": "90%"
+                    },
+                    {
+                        "name": "Code Reviews & Mentorship",
+                        "level": "Advanced",
+                        "width": "90%"
+                    }
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "heading": "Professional Experience",
+        "jobs": [
+            {
+                "title": "Senior Software Engineer",
+                "company": "Synamen Thinklabs Private Limited",
+                "period": "Feb 2025 - Present",
+                "borderColor": "border-blue-600",
+                "highlights": [
+                    "Leading development of real-time backend systems using {Node.js}, {Express}, {Redis}, and {WebSockets} to handle high-throughput data streaming and live updates.",
+                    "Designed and managed {microservices-based architecture} with shared internal libraries, enabling independent service deployment and improved scalability.",
+                    "Refactored monolithic services into scalable, independent services, improving system performance by 40% and reducing deployment time by 60%.",
+                    "Collaborated on system design, API contracts, and deployment workflows, establishing best practices for code quality and maintainability.",
+                    "Mentored junior developers on {clean architecture}, backend patterns, and code quality, conducting regular code reviews and knowledge sharing sessions.",
+                    "Optimized database queries and implemented caching strategies using {Redis}, reducing API response times by 50%."
+                ]
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Synamen Thinklabs Private Limited",
+                "period": "Nov 2023 - Feb 2025",
+                "borderColor": "border-blue-500",
+                "highlights": [
+                    "Built responsive, mobile-first applications using {Angular} and {TypeScript}, implementing reusable UI components and following component-based architecture principles.",
+                    "Developed secure, scalable {REST APIs} using {NestJS} and {Express.js}, implementing authentication, authorization, and input validation.",
+                    "Implemented {WebSocket-based real-time data streaming} for dashboards and live views, enabling instant updates and improved user experience.",
+                    "Coordinated QA and release cycles to ensure stable production deployments, establishing CI/CD pipelines and automated testing workflows.",
+                    "Optimized frontend performance by implementing lazy loading, code splitting, and efficient state management, reducing initial load time by 35%.",
+                    "Collaborated with cross-functional teams to gather requirements, design solutions, and deliver features on time and within scope."
+                ]
+            },
+            {
+                "title": "Web Developer",
+                "company": "Synamen Thinklabs Private Limited",
+                "period": "Oct 2021 - Nov 2023",
+                "borderColor": "border-blue-400",
+                "highlights": [
+                    "Developed mobile-responsive {Angular applications} and reusable UI components, following Material Design principles and accessibility standards.",
+                    "Built real-time UI dashboards with live data visualization, implementing {WebSocket} connections for instant data updates.",
+                    "Improved frontend performance through code optimization, image compression, and efficient rendering techniques, enhancing user experience.",
+                    "Implemented responsive design patterns ensuring seamless experience across desktop, tablet, and mobile devices.",
+                    "Collaborated with designers and backend developers to implement pixel-perfect UI components and integrate {RESTful APIs}.",
+                    "Participated in code reviews, bug fixes, and feature development, contributing to team knowledge sharing and best practices."
+                ]
+            }
+        ]
+    },
+    "opensource": {
+        "heading": "Open Source & Community Contributions",
+        "projects": [
+            {
+                "name": "npm-warden",
+                "url": "https://www.npmjs.com/package/npm-warden",
+                "linkLabel": "View on npm",
+                "description": "A production-ready {CLI tool} built with {Node.js} and {TypeScript} that audits npm dependencies for {security vulnerabilities}, outdated packages, and maintenance risks. Designed to improve dependency health and developer productivity.",
+                "tags": [
+                    "Node.js",
+                    "TypeScript",
+                    "CLI",
+                    "Security",
+                    "Open Source"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Let's Build Scalable Systems Together",
+        "subheading": "Open to senior engineering roles, backend architecture opportunities, remote positions, and impactful open-source collaborations.",
+        "items": [
+            {
+                "label": "Email",
+                "value": "cjbhuvanesh8@gmail.com",
+                "href": "mailto:cjbhuvanesh8@gmail.com",
+                "external": false,
+                "icon": "email"
+            },
+            {
+                "label": "Phone",
+                "value": "+91 9566622198",
+                "href": "tel:9566622198",
+                "external": false,
+                "icon": "phone"
+            },
+            {
+                "label": "Location",
+                "value": "Chennai, India",
+                "href": null,
+                "external": false,
+                "icon": "location"
+            },
+            {
+                "label": "GitHub",
+                "value": "bhuvaneshcj.github.io",
+                "href": "http://bhuvaneshcj.github.io",
+                "external": true,
+                "icon": "github"
+            }
+        ]
+    },
+    "certifications": {
+        "heading": "Certifications",
+        "items": [
+            {
+                "title": "Angular – The Complete Guide",
+                "issuer": "Udemy",
+                "description": "Comprehensive certification covering {Angular} framework fundamentals, advanced concepts, {TypeScript}, {RxJS}, forms, HTTP, routing, and deployment strategies."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "© 2026 Bhuvanesh. All rights reserved.",
+        "tagline": "Senior Full Stack Engineer | Backend Architect | Open Source Contributor",
+        "githubUrl": "http://bhuvaneshcj.github.io",
+        "email": "cjbhuvanesh8@gmail.com"
+    }
+}

@@ -28,10 +28,6 @@ A modern, responsive, single-page portfolio website built with HTML, Tailwind CS
 github-page/
 ├── index.html              # Main portfolio page (single file)
 ├── assets/
-│   ├── css/
-│   │   └── main.css       # Additional styles (if needed)
-│   ├── js/
-│   │   └── main.js         # Additional scripts (if needed)
 │   ├── images/
 │   │   └── dp.png          # Profile image
 │   ├── pdf/
