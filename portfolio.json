@@ -328,6 +328,20 @@
                     "Security",
                     "Open Source"
                 ]
+            },
+            {
+                "name": "cloudflare-kit",
+                "url": "https://www.npmjs.com/package/cloudflare-kit",
+                "linkLabel": "View on npm",
+                "description": "An {enterprise-grade toolkit} for building secure and scalable {Cloudflare Workers} applications. Built with {TypeScript}, it unifies authentication, D1, KV, R2, queues, middleware, and observability into a single modular and developer-friendly package.",
+                "tags": [
+                    "Cloudflare",
+                    "Edge Computing",
+                    "TypeScript",
+                    "Serverless",
+                    "Backend",
+                    "Open Source"
+                ]
             }
         ]
     },
