@@ -349,7 +349,7 @@
         function renderHero(hero) {
             document.getElementById('hero-name').textContent = hero.name;
             document.getElementById('hero-role').textContent = hero.role;
-            document.getElementById('hero-description').textContent = hero.description;
+            document.getElementById('hero-description').innerHTML = highlight(hero.description);
             document.getElementById('hero-resume-btn').href = hero.resumeUrl;
             document.getElementById('hero-image').src = hero.profileImage;
             document.getElementById('hero-image').alt = hero.profileImageAlt;
