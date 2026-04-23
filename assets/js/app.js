@@ -35,6 +35,50 @@ class MobileMenu {
     }
 }
 
+class SmoothScroller {
+    constructor(options = {}) {
+        this.links = document.querySelectorAll('a[href^="#"]');
+        this.header = document.querySelector(options.headerSelector) || null;
+        this.extraOffset = options.extraOffset || 0;
+
+        this.init();
+    }
+
+    init() {
+        this.links.forEach((link) => {
+            link.addEventListener("click", (e) => this.handleClick(e, link));
+        });
+    }
+
+    getHeaderHeight() {
+        return this.header ? this.header.offsetHeight : 0;
+    }
+
+    handleClick(e, link) {
+        const targetId = link.getAttribute("href");
+
+        if (!targetId || targetId === "#") return;
+
+        const targetEl = document.querySelector(targetId);
+        if (!targetEl) return;
+
+        e.preventDefault();
+        this.scrollToElement(targetEl);
+    }
+
+    scrollToElement(target) {
+        const headerHeight = this.getHeaderHeight();
+
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - this.extraOffset;
+
+        window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth",
+        });
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     new MobileMenu();
+    new SmoothScroller({ headerSelector: "nav", extraOffset: 100 });
 });
