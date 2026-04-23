@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+    --app-color-accent: #2977fd;
+    --app-color-card: #23282c;
+    --app-color-gray: #d9d9d9;
+    --app-color-dark: #0b1014;
+}
+
+@theme {
+    --color-accent: var(--app-color-accent);
+    --color-card: var(--app-color-card);
+    --color-gray: var(--app-color-gray);
+    --color-dark: var(--app-color-dark);
+}
+
+* {
+    outline: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--app-color-dark);
+    color: var(--app-color-gray);
+}
+
+a,
+button {
+    cursor: pointer !important;
+}

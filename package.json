@@ -1,0 +1,30 @@
+{
+    "name": "bhuvaneshcj",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:css": "npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/app.css",
+        "watch:css": "npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/app.css --watch",
+        "format": "npx prettier . --write",
+        "format:check": "npx prettier . --check",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bhuvaneshcj/bhuvaneshcj.github.io.git"
+    },
+    "keywords": [],
+    "author": "Bhuvanesh C",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/bhuvaneshcj/bhuvaneshcj.github.io/issues"
+    },
+    "homepage": "https://github.com/bhuvaneshcj/bhuvaneshcj.github.io#readme",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.2.2",
+        "prettier": "^3.8.1",
+        "tailwindcss": "^4.2.2"
+    }
+}
